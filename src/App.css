@@ -1,0 +1,19 @@
+:root{
+    --primary-color: #0e294c;
+    --secondary-color: #181e44;
+    --light-gray: #636363;
+
+    /* 
+    136 #797979
+
+     */
+}
+
+ul{
+    list-style: none;
+}
+
+
+.sec-title h2{
+    color: var(--secondary-color);
+}

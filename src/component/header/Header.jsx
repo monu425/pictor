@@ -6,13 +6,13 @@ const Header = () => {
     const [isToggler, setToggler] = useState(false)
 
     return (
-        <header>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 left-0 z-3">
+        <header className='position-sticky top-0 left-0 z-3'>
+            <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container">
 
                     {/* logo */}
 
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <img src={Logo} alt="" style={{ width: '80%' }} />
                     </a>
 

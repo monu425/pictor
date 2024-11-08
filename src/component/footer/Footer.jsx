@@ -12,7 +12,9 @@ const Footer = () => {
                             <div className="footer-column col-lg-3">
                                 <div className='footer-widget'>
                                     <div className='logo'>
-                                        <img src={logo} alt="" />
+                                        <a href="/">
+                                            <img src={logo} alt="" />
+                                        </a>
                                     </div>
                                     <h5 className='widget-title'>About Us</h5>
                                     <p>
@@ -98,19 +100,19 @@ const Footer = () => {
                         <div className="privacy">
                             <ul className="social-icon-one">
                                 <li>
-                                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                    <a href=""><i className="fa-brands fa-youtube"></i></a>
                                 </li>
                                 <li>
-                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href=""><i className="fa-brands fa-facebook-f"></i></a>
                                 </li>
                                 <li>
-                                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href=""><i className="fa-brands fa-linkedin-in"></i></a>
                                 </li>
                                 <li>
-                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i className="fa-brands fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i className="fa-brands fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
